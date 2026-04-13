@@ -30,7 +30,7 @@ Si no quieres líos de código, descarga la versión lista para usar:
 
 4\. \*\*Configuración:\*\* La primera vez te pedirá tu API Key de Gemini (puedes conseguir una gratis en Google AI Studio). Se guarda localmente y es 100% privada.
 
-5\. Estamos usando una de la versiones más baratas y funcionales  que es: "gemini-3.1-flash-lite-preview".
+5\. Estamos usando una de la versiones más baratas y funcionales  que es: "FocusE v1.0.1 -cambio de modelo a gemini-2.5-flash".
 
 
 
