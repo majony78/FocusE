@@ -1,0 +1,16 @@
+# Bases de datos locales
+focus_e.db
+
+# Imágenes y capturas
+capturas/
+
+# Archivos compilados de Python y PyInstaller
+__pycache__/
+build/
+dist/
+*.spec
+
+# Ejecutables (¡Estos van a la sección Releases, no aquí!)
+*.exe
+*.app
+*.dmg
