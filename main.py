@@ -24,7 +24,7 @@ CAPTURES_DIR = os.path.join(BASE_DIR, "capturas")
 if not os.path.exists(CAPTURES_DIR): os.makedirs(CAPTURES_DIR)
 DB_PATH = os.path.join(BASE_DIR, 'focus_e.db')
 
-MODEL_NAME = 'gemini-3.1-flash-lite-preview'
+MODEL_NAME = 'gemini-3.0-flash-lite'
 
 app = Flask(__name__)
 socketio = SocketIO(app, async_mode='threading')
