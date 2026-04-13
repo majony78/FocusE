@@ -90,3 +90,45 @@ Si quieres ver el código o modificarlo:
 
 FocusE no almacena tus imágenes en la nube. Todo el historial y las capturas se gestionan en una base de datos local SQLite (`focus\_e.db`) en tu propio ordenador.
 
+
+
+
+🚀 Guía de Instalación: FocusE Pro (macOS)
+¡Bienvenido a FocusE Pro! Sigue estos pasos para activar tu asistente inteligente en segundos:
+
+1. Instalación básica
+Haz doble clic en el archivo FocusE-Pro.dmg.
+
+Arrastra el icono de FocusE a la carpeta de Aplicaciones.
+
+2. Bypass de Seguridad (Paso Crucial ⚠️)
+Como la app está desarrollada de forma independiente, macOS la bloqueará inicialmente. Para solucionarlo:
+
+Abre la Terminal (búscala en el Spotlight con Cmd + Espacio).
+
+Copia y pega el siguiente comando y pulsa Enter:
+
+Bash
+sudo xattr -cr /Applications/FocusE-V5.app
+(Si el nombre de tu app es distinto, asegúrate de que coincida con el nombre en tu carpeta de Aplicaciones).
+
+Introduce la contraseña de tu Mac (no verás los caracteres mientras escribes, es normal) y pulsa Enter.
+
+3. Primer Inicio y Permisos
+Ve a tu carpeta de Aplicaciones.
+
+Haz Clic Derecho sobre FocusE y selecciona Abrir.
+
+El Mac te pedirá permisos para:
+
+Grabación de pantalla: Necesario para que la IA vea lo que quieres consultar.
+
+Accesibilidad / Teclado: Necesario para detectar los atajos (CTRL + CMD + T).
+
+Ve a Ajustes del Sistema > Privacidad y Seguridad y asegúrate de que FocusE tenga el interruptor activado en ambas secciones.
+
+⌨️ Atajos de teclado
+CTRL + CMD + T: Realiza una captura y abre el chat inteligente.
+
+CTRL + CMD + Y: Cierra la aplicación por completo.
+
